@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune Teller</title>
+    <script type="text/javascript" src="../../config/bolt/bootstrap-demo.js"></script>
+  </head>
+  <body>
+    OK
+    <script type="text/javascript">
+      ephox.bolt.module.api.require(['example.fortune.api.Button'], function (Button) {
+        var button = Button();
+        document.body.appendChild(button.element());
+      });
+    </script>
+  </body>
+</html>
